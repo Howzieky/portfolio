@@ -1,0 +1,43 @@
+body {
+	background-color: #bebebe;
+	font-family: 'Proxima Nova Soft', 'Helvetica Neue', sans-serif;
+}
+
+.textContainer, .project {
+	background-color: #dddddd;
+	padding: 20px;
+	border-radius: 15px;
+}
+
+.project {
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+}
+
+#projectContainer {
+	display: flex;
+	justify-content: space-around;
+}
+
+.project img {
+	width: 100%;
+}
+
+#contact {
+	display: flex;
+	justify-content: center;
+}
+
+.contactItem {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+h1, h2, h3{
+	text-align: center;
+}
+
+.strikethrough {
+	text-decoration: line-through;
+}
